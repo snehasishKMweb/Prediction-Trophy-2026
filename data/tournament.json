@@ -2,7 +2,11 @@
   "tournament": {
     "name": "Prediction Trophy 2026",
     "version": "1.1.0",
+<<<<<<< HEAD
     "lastUpdated": "Paraguay 0–1 France"
+=======
+    "lastUpdated": "Paraguay 0-1 France"
+>>>>>>> 30273f4 (Update after Paraguay vs France)
   },
 
 "nextMatch": {
