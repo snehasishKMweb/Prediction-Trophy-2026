@@ -1,0 +1,324 @@
+/* ======================================================
+   Prediction Trophy 2026
+   Responsive Styles
+====================================================== */
+
+
+/* ======================================================
+   TABLET
+   (992px and below)
+====================================================== */
+
+@media (max-width:992px){
+
+    nav{
+
+        padding:16px 30px;
+
+    }
+
+    .dashboard{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+/* ======================================================
+   MOBILE
+   (768px and below)
+====================================================== */
+
+@media (max-width:768px){
+
+    /* ---------- Navigation ---------- */
+
+    nav{
+
+        padding:14px 20px;
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .logo{
+
+        font-size:28px;
+
+        text-align:center;
+
+    }
+
+    .nav-links{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:14px;
+    margin:0;
+    padding:0;
+    list-style:none;
+
+    }
+
+    .nav-links li{
+
+    font-size:14px;
+    font-weight:600;
+
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero{
+
+        min-height:auto;
+
+        padding:140px 20px 60px;
+
+    }
+
+    .hero h1{
+
+        font-size:56px;
+
+        line-height:1;
+
+        letter-spacing:2px;
+
+    }
+
+    .subtitle{
+
+        font-size:18px;
+
+        margin-bottom:40px;
+
+    }
+
+    .versus{
+
+        flex-direction:column;
+
+        gap:25px;
+
+    }
+
+    .player{
+
+        width:100%;
+
+        max-width:320px;
+
+        font-size:28px;
+
+    }
+
+    .vs{
+
+        font-size:42px;
+
+    }
+
+    /* ---------- Dashboard ---------- */
+
+    .dashboard{
+
+        width:94%;
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .dashboard-section{
+
+        width:94%;
+
+    }
+
+    /* ---------- Section Titles ---------- */
+
+    .section-title h2{
+
+        font-size:38px;
+
+    }
+
+    .section-title p{
+
+        font-size:16px;
+
+    }
+
+    /* ---------- Leaderboard ---------- */
+
+    .leaderboard-head{
+
+        grid-template-columns:70px 1fr 90px;
+
+        padding:15px;
+
+        font-size:11px;
+
+    }
+
+    .leaderboard-player{
+
+        grid-template-columns:70px 1fr 90px;
+
+        padding:18px 15px;
+
+    }
+
+    .player-name{
+
+        font-size:18px;
+
+    }
+
+    .player-points{
+
+        font-size:26px;
+
+    }
+
+    /* ---------- Match History ---------- */
+
+    .prediction-result{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+    }
+
+    .match-score{
+
+        font-size:22px;
+
+    }
+
+    /* ---------- Biryani ---------- */
+
+    .biryani-card{
+
+        padding:28px 20px;
+
+    }
+
+    .biryani-box h2{
+
+        font-size:28px;
+
+    }
+
+}
+
+
+/* ======================================================
+   SMALL MOBILE
+   (480px and below)
+====================================================== */
+
+@media (max-width:480px){
+
+    .hero{
+
+        padding:150px 16px 50px;
+
+    }
+
+    .hero h1{
+
+        font-size:42px;
+
+    }
+
+    .subtitle{
+
+        font-size:16px;
+
+    }
+
+    .player{
+
+        padding:22px;
+
+        font-size:24px;
+
+    }
+
+    .logo{
+
+        font-size:24px;
+
+    }
+
+    .nav-links{
+
+    gap:10px;
+
+    }
+
+    .nav-links li{
+
+    font-size:13px;
+
+    }
+
+    .section-title h2{
+
+        font-size:32px;
+
+    }
+
+    .card{
+
+        padding:22px;
+
+    }
+
+    .leader-score{
+
+        font-size:44px;
+
+    }
+
+    .leader-body h2{
+
+        font-size:28px;
+
+    }
+
+    .player-name{
+
+        font-size:16px;
+
+    }
+
+    .player-points{
+
+        font-size:22px;
+
+    }
+
+    .match-score{
+
+        font-size:20px;
+
+    }
+
+    .biryani-box h2{
+
+        font-size:24px;
+
+    }
+
+}

@@ -1,0 +1,101 @@
+{
+  "tournament": {
+    "name": "Prediction Trophy 2026",
+    "version": "1.1.0",
+    "lastUpdated": "France 3–0 Sweden"
+  },
+
+"nextMatch": {
+    "home": "Brazil",
+    "away": "Norway",
+    "kickOff": "1:30 AM IST",
+    "prediction1": "2-2",
+    "prediction2": "2-1"
+},
+
+"statistics": {
+    "matchesPlayed": 18,
+    "remainingMatches": 14,
+    "correctPredictions": 14,
+    "exactScores": 3
+},
+
+"recentActivity": [
+    {
+        "match": "Paraguay 0–1 France",
+        "result": "✔ Both +1",
+        "type": "both"
+    },
+    {
+        "match": "Canada 0–3 Marocco",
+        "result": "✔ Both +1",
+        "type": "both"
+    },
+    {
+        "match": "Columbia 2–1 Ghana",
+        "result": "✔ Both +1",
+        "type": "both"
+    },
+    {
+    "match": "Argentina 3–2 Cabo Verde",
+    "result": "✔ Both +1",
+    "type": "both"
+    },
+    {
+    "match": "Austrailia 1–1 Egypt",
+    "result": "✔ Both +1",
+    "type": "both"
+    },
+    {
+    "match": "Switzerland 2–0 Algeria",
+    "result": "✔ Subhadeep +1",
+    "type": "winner"
+    }
+    
+],
+
+"matchHistory": [
+  {
+    "home": "Paraguay",
+    "homeFlag": "🇵🇾",
+    "away": "France",
+    "awayFlag": "🇫🇷",
+    
+    "score": "0–1",
+
+    "snehasishPrediction": "1-3",
+    "subhadeepPrediction": "0–3",
+
+    "snehasishPoints": 1,
+    "subhadeepPoints": 1
+  },
+  {
+    "home": "Canada",
+    "homeFlag": "CA",
+    "away": "Marocco",
+    "awayFlag": "MA",
+    
+    "score": "0-3",
+
+    "snehasishPrediction": "0–2",
+    "subhadeepPrediction": "0–2",
+
+    "snehasishPoints": 1,
+    "subhadeepPoints": 1
+  }
+
+],
+
+  "players": [
+    {
+      "id": 1,
+      "name": "Snehasish",
+      "points": 16
+    },
+    {
+      "id": 2,
+      "name": "Subhadeep",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+:root{
+
+    /* Colors */
+
+    --primary:#FFD700;
+
+    --background:#07111f;
+
+    --background-dark:#030712;
+
+    --card:#182231;
+
+    --text:#ffffff;
+
+    --text-light:#b7c0cf;
+
+    --border:rgba(255,255,255,.08);
+
+    /* Radius */
+
+    --radius:16px;
+
+    /* Shadows */
+
+    --shadow:
+    0 10px 30px rgba(0,0,0,.25);
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}

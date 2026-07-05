@@ -1,0 +1,655 @@
+/* =====================================================
+   CARD COMPONENTS
+===================================================== */
+
+.card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:24px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--primary);
+
+}
+
+/* =====================================================
+   CARD HEADER
+===================================================== */
+
+.card-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#c8d0dc;
+
+    font-weight:600;
+
+    font-size:15px;
+
+    letter-spacing:1.2px;
+
+    text-transform:uppercase;
+
+}
+
+.card-header i{
+
+    font-size:20px;
+
+}
+
+/* =====================================================
+   LEADER CARD
+===================================================== */
+
+.leader-body{
+
+    text-align:center;
+
+    padding:16px 0;
+
+}
+
+.leader-body h2{
+
+    font-size:34px;
+
+    margin-bottom:14px;
+
+    font-weight:700;
+
+}
+
+.leader-score{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+}
+
+.leader-score span{
+
+    display:block;
+
+    font-size:15px;
+
+    margin-top:-8px;
+
+    color:var(--text-light);
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.leader-body p{
+
+    margin-top:20px;
+
+    color:var(--text-light);
+
+}
+
+.card-footer{
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    margin-top:18px;
+
+    padding-top:14px;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:13px;
+
+}
+
+/*=========================================
+NEXT MATCH CARD
+=========================================*/
+
+.match-body{
+
+    text-align:center;
+
+    padding:18px 0;
+
+}
+
+.team{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.vs-text{
+
+    color:var(--primary);
+
+    font-size:20px;
+
+    font-weight:700;
+
+    margin:12px 0;
+
+    letter-spacing:2px;
+
+}
+
+.prediction-box{
+
+    margin-top:15px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    padding:15px 0;
+
+}
+
+.prediction-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:8px 0;
+
+}
+
+.prediction-row span{
+
+    color:var(--text-light);
+
+}
+
+.prediction-row strong{
+
+    color:var(--primary);
+
+    font-size:20px;
+
+}
+
+/*=========================================
+TOURNAMENT STATISTICS
+=========================================*/
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-top:22px;
+
+}
+
+.stat-item{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:12px;
+
+    padding:18px;
+
+    text-align:center;
+
+    transition:var(--transition);
+
+}
+
+.stat-item:hover{
+
+    border-color:var(--primary);
+
+    transform:translateY(-3px);
+
+}
+
+.stat-item h2{
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:6px;
+
+}
+
+.stat-item p{
+
+    color:var(--text-light);
+
+    font-size:14px;
+
+    text-transform:uppercase;
+
+    letter-spacing:.8px;
+
+}
+
+/* =========================================
+RECENT ACTIVITY
+========================================= */
+
+.activity-card{
+
+    height:320px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.activity-list{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding-right:8px;
+
+}
+
+.activity-item{
+
+    padding:16px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.activity-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.activity-match{
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:#ffffff;
+
+}
+
+.activity-result{
+
+    margin-top:6px;
+
+    font-size:14px;
+
+    color:var(--text-light);
+
+}
+
+.activity-result.winner{
+
+    color:#7CFC98;
+
+}
+
+.activity-result.both{
+
+    color:var(--primary);
+
+}
+
+/*=========================================
+LEADERBOARD
+=========================================*/
+
+.leaderboard-section{
+
+    margin-top:70px;
+
+}
+
+.leaderboard-table{
+
+    margin-top:25px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+}
+
+.leaderboard-head{
+
+    display:grid;
+
+    grid-template-columns:90px 1fr 120px;
+
+    padding:18px 28px;
+
+    background:rgba(255,255,255,.05);
+
+    font-size:13px;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    color:var(--text-light);
+
+}
+
+.leaderboard-player{
+
+    display:grid;
+
+    grid-template-columns:90px 1fr 120px;
+
+    align-items:center;
+
+    padding:24px 28px;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    transition:
+        transform .25s ease,
+        background .25s ease,
+        border-color .25s ease;
+
+}
+
+.leaderboard-player:hover{
+
+    background:rgba(255,255,255,.03);
+
+    transform:translateX(8px);
+
+}
+
+.rank{
+
+    font-size:28px;
+
+}
+
+.player-name{
+
+    display:flex;
+
+    flex-direction:column;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.player-name small{
+
+    margin-top:4px;
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+    font-weight:500;
+
+}
+
+.player-points{
+
+    text-align:right;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+}
+
+.first-place{
+
+    background:rgba(255,215,0,.05);
+
+}
+
+/*=========================================
+MATCH HISTORY
+=========================================*/
+
+.history-section{
+
+    margin-top:70px;
+
+}
+
+.history-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+    margin-top:25px;
+
+}
+
+.match-history-card{
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    padding:28px;
+
+    transition:var(--transition);
+
+}
+
+.match-history-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(255,208,0,.25);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,.25);
+
+}
+
+.match-score{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.prediction-result{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+.prediction{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.prediction strong{
+
+    font-size:18px;
+
+}
+
+.prediction span{
+
+    color:var(--text-light);
+
+}
+
+.point-win{
+
+    color:#6EEB83 !important;
+
+    font-weight:700;
+
+}
+
+.point-loss{
+
+    color:#ff7b7b !important;
+
+    font-weight:700;
+
+}
+
+/*=========================================
+BIRYANI CHALLENGE
+=========================================*/
+
+.biryani-section{
+
+    margin-top:70px;
+    margin-bottom:50px;
+
+}
+
+.biryani-card{
+
+    margin-top:25px;
+
+    background:linear-gradient(135deg,#1b2230,#222b3c);
+
+    border:1px solid rgba(255,215,0,.20);
+
+    border-radius:16px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.biryani-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 20px 45px rgba(255,208,0,.15);
+
+}
+
+.biryani-icon{
+
+    font-size:56px;
+
+    margin-bottom:16px;
+
+}
+
+.biryani-card h3{
+
+    font-size:30px;
+
+    margin-bottom:12px;
+
+}
+
+.leader-line{
+
+    color:var(--text-light);
+
+    margin-bottom:30px;
+
+}
+
+.biryani-box{
+
+    background:rgba(255,215,0,.08);
+
+    border:1px solid rgba(255,215,0,.20);
+
+    border-radius:12px;
+
+    padding:24px;
+
+}
+
+.biryani-box h2{
+
+    color:var(--primary);
+
+    margin-top:10px;
+
+    font-size:34px;
+
+}
+
+.biryani-footer{
+
+    margin-top:24px;
+
+    color:var(--text-light);
+
+    font-size:14px;
+
+}
