@@ -2,17 +2,13 @@
   "tournament": {
     "name": "Prediction Trophy 2026",
     "version": "1.1.0",
-<<<<<<< HEAD
     "lastUpdated": "Paraguay 0–1 France"
-=======
-    "lastUpdated": "Paraguay 0-1 France"
->>>>>>> 30273f4 (Update after Paraguay vs France)
   },
 
 "nextMatch": {
     "home": "Brazil",
     "away": "Norway",
-    "kickOff": "6 July 1:30 AM IST",
+    "kickOff": "1:30 AM IST",
     "prediction1": "2-2",
     "prediction2": "2-1"
 },
@@ -75,9 +71,9 @@
   },
   {
     "home": "Canada",
-    "homeFlag": "CA",
+    "homeFlag": "🇨🇦",
     "away": "Marocco",
-    "awayFlag": "MA",
+    "awayFlag": "🇲🇦",
     
     "score": "0-3",
 
