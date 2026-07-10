@@ -2,25 +2,35 @@
   "tournament": {
     "name": "Prediction Trophy 2026",
     "version": "1.1.0",
-    "lastUpdated": "Switzerland 0–0 Colombia"
+    "lastUpdated": "Spain 2–1 Belgium"
   },
 
 "nextMatch": {
-    "home": "France",
-    "away": "Marocco",
-    "kickOff": "10 Jul 01:30 AM IST",
-    "prediction1": "2-1",
+    "home": "Norway",
+    "away": "England",
+    "kickOff": "12 Jul 02:30 AM IST",
+    "prediction1": "2-2",
     "prediction2": "2-0"
 },
 
 "statistics": {
-    "matchesPlayed": 24,
-    "remainingMatches": 8,
-    "correctPredictions": 18,
-    "exactScores": 3
+    "matchesPlayed": 26,
+    "remainingMatches": 6,
+    "correctPredictions": 20,
+    "exactScores": 5
 },
 
 "recentActivity": [
+    {
+        "match": "Spain 2–1 Belgium",
+        "result": "Subhadeep +2, Snehasish +1",
+        "type": "both"
+    },
+    {
+        "match": "France 2–0 Marocco",
+        "result": "Subhadeep +2, Snehasish +1",
+        "type": "both"
+    },
     {
         "match": "Switzerland 0–0 Colombia",
         "result": "✖ Both 0",
@@ -45,21 +55,39 @@
         "match": "Mexico 2–3 England",
         "result": "✔ Both +1",
         "type": "both"
-    },
-    {
-        "match": "Brazil 0–2 Norway",
-        "result": "✖ Both 0",
-        "type": "none"
-    },
-    {
-        "match": "Paraguay 0–1 France",
-        "result": "✔ Both +1",
-        "type": "both"
     }
         
 ],
 
 "matchHistory": [
+  {
+    "home": "Spain",
+    "homeFlag": "🇪🇸",
+    "away": "Belgium",
+    "awayFlag": "🇧🇪",
+    
+    "score": "2–1",
+
+    "snehasishPrediction": "2-0",
+    "subhadeepPrediction": "2–1",
+
+    "snehasishPoints": 1,
+    "subhadeepPoints": 2
+  },
+  {
+    "home": "France",
+    "homeFlag": "🇫🇷",
+    "away": "Marocco",
+    "awayFlag": "🇲🇦",
+    
+    "score": "2–0",
+
+    "snehasishPrediction": "2-1",
+    "subhadeepPrediction": "2–0",
+
+    "snehasishPoints": 1,
+    "subhadeepPoints": 2
+  },
   {
     "home": "Switzerland",
     "homeFlag": "🇨🇭",
@@ -108,12 +136,12 @@
     {
       "id": 1,
       "name": "Snehasish",
-      "points": 19
+      "points": 21
     },
     {
       "id": 2,
       "name": "Subhadeep",
-      "points": 17
+      "points": 21
     }
   ]
 }
