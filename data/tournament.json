@@ -2,25 +2,35 @@
   "tournament": {
     "name": "Prediction Trophy 2026",
     "version": "1.1.0",
-    "lastUpdated": "Spain 2–1 Belgium"
+    "lastUpdated": "Argentina 3–1 Switzerland"
   },
 
 "nextMatch": {
-    "home": "Norway",
-    "away": "England",
-    "kickOff": "12 Jul 02:30 AM IST",
-    "prediction1": "2-2",
-    "prediction2": "2-0"
+    "home": "France",
+    "away": "Spain",
+    "kickOff": "15 Jul 12:30 AM IST",
+    "prediction1": "2-1",
+    "prediction2": "2-3"
 },
 
 "statistics": {
-    "matchesPlayed": 26,
-    "remainingMatches": 6,
-    "correctPredictions": 20,
-    "exactScores": 5
+    "matchesPlayed": 28,
+    "remainingMatches": 4,
+    "correctPredictions": 21,
+    "exactScores": 6
 },
 
 "recentActivity": [
+    {
+        "match": "Argentina 3–1 Switzerland",
+        "result": "Snehasish +2, Subhadeep +1",
+        "type": "both"
+    },
+    {
+        "match": "Norway 1–2 England",
+        "result": "✖ Both 0",
+        "type": "none"
+    },
     {
         "match": "Spain 2–1 Belgium",
         "result": "Subhadeep +2, Snehasish +1",
@@ -60,6 +70,34 @@
 ],
 
 "matchHistory": [
+  {
+    "home": "Argentina",
+    "homeFlag": "🇪🇸",
+    "away": "Switzerland",
+    "awayFlag": "🇧🇪",
+    
+    "score": "3–1",
+
+    "snehasishPrediction": "3-1",
+    "subhadeepPrediction": "3–0",
+
+    "snehasishPoints": 2,
+    "subhadeepPoints": 1
+  },
+  {
+    "home": "Norway",
+    "homeFlag": "🇪🇸",
+    "away": "England",
+    "awayFlag": "🇧🇪",
+    
+    "score": "1–2",
+
+    "snehasishPrediction": "2-2",
+    "subhadeepPrediction": "2–0",
+
+    "snehasishPoints": 0,
+    "subhadeepPoints": 0
+  },
   {
     "home": "Spain",
     "homeFlag": "🇪🇸",
@@ -136,12 +174,12 @@
     {
       "id": 1,
       "name": "Snehasish",
-      "points": 21
+      "points": 23
     },
     {
       "id": 2,
       "name": "Subhadeep",
-      "points": 21
+      "points": 22
     }
   ]
 }
